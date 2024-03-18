@@ -1,0 +1,115 @@
+:root {
+    --Rouge:#e74c3c;
+    --gray: #D3D3D3; 
+    --white: #FFFFFF;
+    --dark-gray:#4B4B4B;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /*font-family: Roboto Slab;*/
+  }
+  
+  img {
+    width: 100%;
+  }
+
+  .lines {
+    font-weight: 300;
+    color: var(--gray);
+
+  }
+
+  .onemillion {
+    padding-left: 15%; /* Ajusta el espacio a la izquierda */
+    padding-right: 15%; /* Ajusta el espacio a la derecha */
+    margin: auto; /* Centra horizontalmente */
+}
+
+.navbar-nav {
+    padding-right: 35%; /* Ajusta el espacio a la derecha */
+    gap: 35px;
+}
+
+.nav-link {
+    padding-left: 30px; /* Ajusta el espacio a la izquierda */
+    padding-right: 30px; /* Ajusta el espacio a la derecha */
+}
+
+.goal{
+    background-image: url(../img/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 99vh; 
+}
+
+.button {
+    text-align: center;
+}
+
+.learn {
+    background-color: var(--Rouge);
+    border-color: var(--Rouge);
+}
+
+.code {
+    text-align: center;
+}
+
+h1 {
+    font-family: Roboto Slab;
+}
+
+h2, h3 {
+   font-family: Roboto Slab;
+   color: var(--Rouge);
+}
+
+hr{
+    color: var(--Rouge);
+}
+
+.person, .pencil, .cash {
+    background-color: var(--dark-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: var(--white);
+}
+
+i {
+    font-size: 4rem;
+}
+
+.involved {
+    background-color: var(--gray);
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+figcaption {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.start, .join, .give{
+    text-align: center;
+}
+
+.learning, .initiative, .support {
+    background-color: var(--white);
+    border: var(--dark-gray);
+    color: var(--Rouge);
+}
+
+
