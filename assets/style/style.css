@@ -39,7 +39,7 @@
     padding-right: 30px; /* Ajusta el espacio a la derecha */
 }
 
-.goal{
+.goal, .discover{
     background-image: url(../img/hero-image.jpg);
     background-size: cover;
     background-position: center;
@@ -64,7 +64,7 @@ h1 {
     font-family: Roboto Slab;
 }
 
-h2, h3 {
+h2, h3, h5 {
    font-family: Roboto Slab;
    color: var(--Rouge);
 }
@@ -112,4 +112,67 @@ figcaption {
     color: var(--Rouge);
 }
 
+.learn:hover {
+    background-color: red !important;
+    border-color: red !important;
+  }
 
+  .learning:hover {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.initiative:hover {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.support:hover {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+footer {
+    background-color: var(--Rouge);
+}
+
+.arrow {
+    color: var(--Rouge);
+}
+
+.general{
+    background-color: var(--gray);
+}
+/* team */
+.donnees {
+    background: white;
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profil {
+    width: 23%;
+    height: 400px;
+    padding: 0;
+    margin: 25px;
+}
+
+.change {
+    background:url(/assets/img/joanne.jpg); /* Cambia el color de fondo a rojo */
+}
+
+#profil1{
+    background: url(../img/joanne.jpg) center/cover;
+}
+#profil2{
+    background: url(../img/gaston.jpg) center/cover;
+}
+#profil3{
+    background: url(../img/manuel.jpg) center/cover;
+}
+#profil4{
+    background: url(../img/tracy.jpg) center/cover;
+}
