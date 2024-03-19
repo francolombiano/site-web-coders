@@ -99,7 +99,7 @@ myForm.addEventListener('submit', function(event){
   }
 
 //To verify that the text field has 15 characters at hand
-  if (valueMessage.length < 15) {
+  if (valueMessage.length < 30) {
     messageError.textContent = 'Votre message doit comporter au moins 30 caractères';
     inputMessage.focus();
     return;
@@ -125,3 +125,14 @@ myForm.reset();
 
 });
 
+//Hamburger menu for small screens
+let menuButton = document.querySelector(".navbar-toggler");
+let menu = document.querySelector("#navbarNav");
+
+menuButton.addEventListener("click", function() {
+    if (menu.classList.contains("show")) {
+        menu.classList.remove("show");
+    } else {
+        menu.classList.add("show"); 
+    }
+});
