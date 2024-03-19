@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link for Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link for bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link for Googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!-- link for css style -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>CONTACT US</title>
+</head>
+
+<body>
+    <header>
+        <section class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+
+                <div class="onemillion d-flex mx-auto">
+                    <img src="./assets/img/top-logo.png" alt="logo">
+                </div>
+
+                <!-- Menu button for small screens -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active hoverable">
+                            <a class="nav-link" href="">WHO WE ARE</a>
+                        </li>
+                        <li class="nav-item hoverable">
+                            <a class="nav-link" href="">GET INVOLVED</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <div class="contact">
+            <div class="text-center p-5 text-white">
+                <h1>Contact us!</h1>
+            </div>
+
+            <div class="write text-center text-white p-5">
+                <p>Contact us to be a part of ou initiative: wheter as a student,
+                    an educator or a sponsor.</p>
+            </div>
+
+            <div class="button pt-5">
+                <button type="button" class="btn btn-primary learn">Learn more>></button>
+            </div>
+
+            <div class="code col-2 mx-auto p-5">
+                <img src="./assets/img/code.png" alt="code" width="100">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="general">
+            <div class="involved p-4">
+                <div class="get text-center p-5">
+                    <h2>GET INVOLVED</h2>
+                    <hr class="w-25 col-1 border-2 mx-auto">
+                </div>
+
+                <form method="post" class="container col-8 p-5">
+                    <div class="row">
+                        <div class="form-group col-12 md-col-6 pb-2">
+                            <label for="fullname">Votre prenom</label>
+                            <input type="text" class="form-control" id="fullname" placeholder="Enter your name">
+                            <div id="fullnameError" class="error"></div>
+                        </div><br>
+
+                        <div class="form-group col-12 md-col-6 pb-2">
+                            <label for="lastname">Votre nom</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Enter your lastname">
+                            <div id="lastnameError" class="error"></div>
+                        </div><br>
+
+                        <div class="form-group col-12 md-col-6 pb-2">
+                            <label for="choice">Why are you contacting us?</label>
+                            <select name="choice" id="choice" class="form-select">
+                                <option value="" selected>--- Select an option ---</option>
+                                <option value="educator">I want to be an educator</option>
+                                <option value="student">I want to be a student</option>
+                                <option value="sponsor">I want to be a sponsor</option>
+                            </select>
+                            <div id="choiceError" class="error"></div>
+                        </div>
+
+                        <div class="form-group col-12 pb-2">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            <div id="emailError" class="error"></div>
+                        </div>
+
+                        <div class="form-group col-12 pb-2">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" placeholder=""></textarea>
+                            <div id="messageError" class="error"></div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary bg-gray col-2 inscrire mx-auto">S'inscrire</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+    </main>
+    <!--Footer  -->
+    <footer>
+        <br><br>
+        <div class="community container-fluid p-5">
+            <img class="col-3" src="./assets/img/one-million-bottom-brand.png" alt="">
+        </div>
+    </footer>
+
+    <!-- link Bootstrap's script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- link for script -->
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>

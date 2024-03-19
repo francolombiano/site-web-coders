@@ -3,6 +3,8 @@
     --gray: #D3D3D3; 
     --white: #FFFFFF;
     --dark-gray:#4B4B4B;
+    --rouge-hover : #b83e30;
+    --blanc-hover : rgb(144, 144, 144);
   }
   
   * {
@@ -15,12 +17,6 @@
   
   img {
     width: 100%;
-  }
-
-  .lines {
-    font-weight: 300;
-    color: var(--gray);
-
   }
 
   .onemillion {
@@ -39,7 +35,7 @@
     padding-right: 30px; /* Ajusta el espacio a la derecha */
 }
 
-.goal, .discover{
+.goal, .discover, .contact{
     background-image: url(../img/hero-image.jpg);
     background-size: cover;
     background-position: center;
@@ -51,7 +47,7 @@
     text-align: center;
 }
 
-.learn {
+.learn, .want, .inscrire {
     background-color: var(--Rouge);
     border-color: var(--Rouge);
 }
@@ -113,23 +109,33 @@ figcaption {
 }
 
 .learn:hover {
-    background-color: red !important;
-    border-color: red !important;
+    background-color: var(--rouge-hover);
+    border-color: red;
   }
 
   .learning:hover {
-    background-color: red !important;
-    border-color: red !important;
+    background-color: var(--blanc-hover);
+    border-color: red;
 }
 
 .initiative:hover {
-    background-color: red !important;
-    border-color: red !important;
+    background-color: var(--blanc-hover);
+    border-color: red;
 }
 
 .support:hover {
-    background-color: red !important;
-    border-color: red !important;
+    background-color: var(--blanc-hover);
+    border-color: red;
+}
+
+.want:hover {
+    background-color: var(--rouge-hover);
+    border-color: red;
+}
+
+.inscrire:hover{
+    background-color: var(--rouge-hover);
+    border-color: red;
 }
 
 footer {
@@ -160,8 +166,8 @@ footer {
     margin: 25px;
 }
 
-.change {
-    background:url(/assets/img/joanne.jpg); /* Cambia el color de fondo a rojo */
+.photo {
+    background:url(/assets/img/joanne.jpg); 
 }
 
 #profil1{
@@ -175,4 +181,16 @@ footer {
 }
 #profil4{
     background: url(../img/tracy.jpg) center/cover;
+}
+
+.hyperlink {
+    color: var(--Rouge);
+}
+
+.text {
+    font-family: arial;
+}
+
+.error {
+    color:var(--Rouge)
 }
